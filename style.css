@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+.todolist {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.todolist input {
+    width: 70%;
+    padding: 5px;
+}
+
+.btn {
+    outline: none;
+    font-size: 17px;
+    margin: 5px 10px;
+    padding: 8px 15px;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(8, 95, 84);
+    border: 1px solid rgb(99, 99, 99);
+}
+
+.todoul li {
+    padding: 10px;
+    color: white;
+    margin: 10px auto;
+    background-color: cadetblue;
+}
